@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Controls.Presentation, FMX.StdCtrls;
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Edit, FMX.Layouts;
 
 type
   Tfrm_main = class(TForm)
@@ -27,6 +27,11 @@ type
     btn_division: TButton;
     btn_multiplier: TButton;
     btn_sqrt: TButton;
+    lyt_buttons: TLayout;
+    Layout1: TLayout;
+    Edit1: TEdit;
+    Label1: TLabel;
+    btn_erase: TButton;
   private
     { Private declarations }
   public
