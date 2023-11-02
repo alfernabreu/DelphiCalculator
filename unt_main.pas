@@ -22,16 +22,18 @@ type
     btn_point: TButton;
     btn_result: TButton;
     btn_plusMinus: TButton;
-    btn_som: TButton;
-    btn_subtract: TButton;
+    btn_sum: TButton;
+    btn_subtraction: TButton;
     btn_division: TButton;
-    btn_multiplier: TButton;
+    btn_multiplication: TButton;
     btn_sqrt: TButton;
     lyt_buttons: TLayout;
     Layout1: TLayout;
     Edit1: TEdit;
     Label1: TLabel;
     btn_erase: TButton;
+    procedure btn_sumClick(Sender: TObject);
+    procedure btn_subtractionClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -44,5 +46,21 @@ var
 implementation
 
 {$R *.fmx}
+
+procedure Tfrm_main.btn_subtractionClick(Sender: TObject);
+begin
+  btn_sum.Enabled := True;
+  btn_subtraction.Enabled := False;
+  btn_division.Enabled := True;
+  btn_multiplication.Enabled := True;
+end;
+
+procedure Tfrm_main.btn_sumClick(Sender: TObject);
+begin
+  btn_sum.Enabled := False;
+  btn_subtraction.Enabled := True;
+  btn_division.Enabled := True;
+  btn_multiplication.Enabled := True;
+end;
 
 end.
