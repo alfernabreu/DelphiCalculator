@@ -199,20 +199,25 @@ object frm_main: Tfrm_main
     Size.Height = 57.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
-    object Edit1: TEdit
+    object txt_screen: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       TabOrder = 0
-      Position.X = 42.000000000000000000
+      TextSettings.Font.Size = 36.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Trailing
+      Position.X = 48.000000000000000000
       Position.Y = 8.000000000000000000
-      Size.Width = 193.000000000000000000
-      Size.Height = 41.000000000000000000
+      Size.Width = 187.000000000000000000
+      Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
+      TextPrompt = '0'
+      StyledSettings = [Family]
     end
     object lbl_operator: TLabel
       StyledSettings = [Family, Style, FontColor]
       Position.X = 8.000000000000000000
       Position.Y = 8.000000000000000000
-      Size.Width = 18.000000000000000000
+      Size.Width = 32.000000000000000000
       Size.Height = 41.000000000000000000
       Size.PlatformDefault = False
       TextSettings.Font.Size = 36.000000000000000000
