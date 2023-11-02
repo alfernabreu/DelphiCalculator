@@ -114,6 +114,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 10
       Text = '/'
+      OnClick = btn_divisionClick
     end
     object btn_multiplication: TButton
       Position.X = 127.000000000000000000

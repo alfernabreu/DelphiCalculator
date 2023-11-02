@@ -35,6 +35,7 @@ type
     procedure btn_sumClick(Sender: TObject);
     procedure btn_subtractionClick(Sender: TObject);
     procedure btn_multiplicationClick(Sender: TObject);
+    procedure btn_divisionClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -47,6 +48,14 @@ var
 implementation
 
 {$R *.fmx}
+
+procedure Tfrm_main.btn_divisionClick(Sender: TObject);
+begin
+  btn_sum.Enabled := True;
+  btn_subtraction.Enabled := True;
+  btn_division.Enabled := False;
+  btn_multiplication.Enabled := True;
+end;
 
 procedure Tfrm_main.btn_multiplicationClick(Sender: TObject);
 begin
