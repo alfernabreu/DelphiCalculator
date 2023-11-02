@@ -115,7 +115,7 @@ object frm_main: Tfrm_main
       TabOrder = 10
       Text = '/'
     end
-    object btn_multiplier: TButton
+    object btn_multiplication: TButton
       Position.X = 127.000000000000000000
       Position.Y = 59.000000000000000000
       Size.Width = 50.000000000000000000
@@ -151,7 +151,7 @@ object frm_main: Tfrm_main
       TabOrder = 14
       Text = '='
     end
-    object btn_som: TButton
+    object btn_sum: TButton
       Position.X = 185.000000000000000000
       Position.Y = 106.000000000000000000
       Size.Width = 50.000000000000000000
@@ -159,6 +159,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 15
       Text = '+'
+      OnClick = btn_sumClick
     end
     object btn_sqrt: TButton
       Position.X = 11.000000000000000000
@@ -169,7 +170,7 @@ object frm_main: Tfrm_main
       TabOrder = 16
       Text = #8730
     end
-    object btn_subtract: TButton
+    object btn_subtraction: TButton
       Position.X = 185.000000000000000000
       Position.Y = 58.000000000000000000
       Size.Width = 50.000000000000000000
@@ -177,6 +178,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 17
       Text = '-'
+      OnClick = btn_subtractionClick
     end
     object btn_erase: TButton
       Position.X = 185.000000000000000000
