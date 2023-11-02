@@ -30,7 +30,7 @@ type
     lyt_buttons: TLayout;
     Layout1: TLayout;
     Edit1: TEdit;
-    Label1: TLabel;
+    lbl_operator: TLabel;
     btn_erase: TButton;
     procedure btn_sumClick(Sender: TObject);
     procedure btn_subtractionClick(Sender: TObject);

@@ -208,7 +208,7 @@ object frm_main: Tfrm_main
       Size.Height = 41.000000000000000000
       Size.PlatformDefault = False
     end
-    object Label1: TLabel
+    object lbl_operator: TLabel
       StyledSettings = [Family, Style, FontColor]
       Position.X = 8.000000000000000000
       Position.Y = 8.000000000000000000
@@ -216,7 +216,6 @@ object frm_main: Tfrm_main
       Size.Height = 41.000000000000000000
       Size.PlatformDefault = False
       TextSettings.Font.Size = 36.000000000000000000
-      Text = '0'
       TabOrder = 1
     end
   end
