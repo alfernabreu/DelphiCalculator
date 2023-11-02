@@ -123,6 +123,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 11
       Text = '*'
+      OnClick = btn_multiplicationClick
     end
     object btn_plusMinus: TButton
       Position.X = 11.000000000000000000
