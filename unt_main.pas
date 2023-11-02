@@ -1,4 +1,4 @@
-unit unt_main;
+﻿unit unt_main;
 
 interface
 
@@ -29,7 +29,7 @@ type
     btn_sqrt: TButton;
     lyt_buttons: TLayout;
     Layout1: TLayout;
-    Edit1: TEdit;
+    txt_screen: TEdit;
     lbl_operator: TLabel;
     btn_erase: TButton;
     procedure btn_sumClick(Sender: TObject);
@@ -51,6 +51,7 @@ implementation
 
 procedure Tfrm_main.btn_divisionClick(Sender: TObject);
 begin
+  lbl_operator.Text := '÷';
   btn_sum.Enabled := True;
   btn_subtraction.Enabled := True;
   btn_division.Enabled := False;
@@ -59,6 +60,7 @@ end;
 
 procedure Tfrm_main.btn_multiplicationClick(Sender: TObject);
 begin
+  lbl_operator.Text := 'x';
   btn_sum.Enabled := True;
   btn_subtraction.Enabled := True;
   btn_division.Enabled := True;
@@ -67,6 +69,7 @@ end;
 
 procedure Tfrm_main.btn_subtractionClick(Sender: TObject);
 begin
+  lbl_operator.Text := '– ';
   btn_sum.Enabled := True;
   btn_subtraction.Enabled := False;
   btn_division.Enabled := True;
@@ -75,6 +78,7 @@ end;
 
 procedure Tfrm_main.btn_sumClick(Sender: TObject);
 begin
+  lbl_operator.Text := '+';
   btn_sum.Enabled := False;
   btn_subtraction.Enabled := True;
   btn_division.Enabled := True;
