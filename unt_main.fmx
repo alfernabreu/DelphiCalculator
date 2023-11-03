@@ -24,6 +24,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 0
       Text = '0'
+      OnClick = btn_0Click
     end
     object btn_1: TButton
       Position.X = 11.000000000000000000
@@ -33,6 +34,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 8
       Text = '1'
+      OnClick = btn_1Click
     end
     object btn_2: TButton
       Position.X = 69.000000000000000000
@@ -42,6 +44,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 7
       Text = '2'
+      OnClick = btn_2Click
     end
     object btn_3: TButton
       Position.X = 127.000000000000000000
@@ -51,6 +54,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 6
       Text = '3'
+      OnClick = btn_3Click
     end
     object btn_4: TButton
       Position.X = 11.000000000000000000
@@ -60,6 +64,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 5
       Text = '4'
+      OnClick = btn_4Click
     end
     object btn_5: TButton
       Position.X = 69.000000000000000000
@@ -69,6 +74,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 4
       Text = '5'
+      OnClick = btn_5Click
     end
     object btn_6: TButton
       Position.X = 127.000000000000000000
@@ -78,6 +84,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 9
       Text = '6'
+      OnClick = btn_6Click
     end
     object btn_7: TButton
       Position.X = 11.000000000000000000
@@ -87,6 +94,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 3
       Text = '7'
+      OnClick = btn_7Click
     end
     object btn_8: TButton
       Position.X = 69.000000000000000000
@@ -96,6 +104,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 2
       Text = '8'
+      OnClick = btn_8Click
     end
     object btn_9: TButton
       Position.X = 127.000000000000000000
@@ -105,6 +114,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 1
       Text = '9'
+      OnClick = btn_9Click
     end
     object btn_division: TButton
       Position.X = 69.000000000000000000
