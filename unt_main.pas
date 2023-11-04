@@ -55,6 +55,7 @@ type
 
 var
   frm_main: Tfrm_main;
+  typed_value: Integer;
 
 implementation
 
@@ -189,6 +190,7 @@ begin
   btn_subtraction.Enabled := True;
   btn_division.Enabled := True;
   btn_multiplication.Enabled := True;
+  txt_screen.Text := '0';
 end;
 
 end.
