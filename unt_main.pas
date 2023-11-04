@@ -46,6 +46,7 @@ type
     procedure btn_8Click(Sender: TObject);
     procedure btn_9Click(Sender: TObject);
     procedure btn_0Click(Sender: TObject);
+    procedure btn_plusMinusClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -151,6 +152,25 @@ begin
   btn_subtraction.Enabled := True;
   btn_division.Enabled := True;
   btn_multiplication.Enabled := False;
+end;
+
+procedure Tfrm_main.btn_plusMinusClick(Sender: TObject);
+var
+toNumber : Integer;
+
+begin
+  if txt_screen.Text > '0' then
+  begin
+    toNumber := StrToInt(txt_screen.Text);
+    toNumber := toNumber - (toNumber * 2);
+    txt_screen.Text := IntToStr(toNumber)
+  end
+  else
+  begin
+    toNumber := StrToInt(txt_screen.Text);
+    toNumber := (toNumber * 2) - toNumber;
+    txt_screen.Text := IntToStr(toNumber)
+  end;
 end;
 
 procedure Tfrm_main.btn_subtractionClick(Sender: TObject);

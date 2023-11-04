@@ -144,6 +144,7 @@ object frm_main: Tfrm_main
       Size.PlatformDefault = False
       TabOrder = 12
       Text = '+/-'
+      OnClick = btn_plusMinusClick
     end
     object btn_point: TButton
       Position.X = 127.000000000000000000
