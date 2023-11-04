@@ -69,35 +69,35 @@ end;
 
 procedure Tfrm_main.btn_1Click(Sender: TObject);
 begin
-  if txt_screen.Text = '' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '1'
   else txt_screen.Text := txt_screen.Text + '1';
 end;
 
 procedure Tfrm_main.btn_2Click(Sender: TObject);
 begin
-  if txt_screen.Text = '' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '2'
   else txt_screen.Text := txt_screen.Text + '2';
 end;
 
 procedure Tfrm_main.btn_3Click(Sender: TObject);
 begin
-  if txt_screen.Text = '' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '3'
   else txt_screen.Text := txt_screen.Text + '3';
 end;
 
 procedure Tfrm_main.btn_4Click(Sender: TObject);
 begin
-  if txt_screen.Text = '' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '4'
   else txt_screen.Text := txt_screen.Text + '4';
 end;
 
 procedure Tfrm_main.btn_5Click(Sender: TObject);
 begin
-  if txt_screen.Text = '' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '5'
   else
     txt_screen.Text := txt_screen.Text + '5';
@@ -105,7 +105,7 @@ end;
 
 procedure Tfrm_main.btn_6Click(Sender: TObject);
 begin
-  if txt_screen.Text = '' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '6'
   else
     txt_screen.Text := txt_screen.Text + '6';
@@ -113,7 +113,7 @@ end;
 
 procedure Tfrm_main.btn_7Click(Sender: TObject);
 begin
-  if txt_screen.Text = '' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '7'
   else
     txt_screen.Text := txt_screen.Text + '7';
@@ -121,7 +121,7 @@ end;
 
 procedure Tfrm_main.btn_8Click(Sender: TObject);
 begin
-  if txt_screen.Text = '8' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '8'
   else
     txt_screen.Text := txt_screen.Text + '8';
@@ -129,7 +129,7 @@ end;
 
 procedure Tfrm_main.btn_9Click(Sender: TObject);
 begin
-  if txt_screen.Text = '' then
+  if (txt_screen.Text = '') or (txt_screen.Text = '0') then
     txt_screen.Text := '9'
   else
     txt_screen.Text := txt_screen.Text + '9';
